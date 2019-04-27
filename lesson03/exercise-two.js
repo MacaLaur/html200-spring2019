@@ -1,4 +1,3 @@
 let str = 'Harry Potter caught the golden snitch.'
-let a = str.trim(' ').split(' ');
-console.log(a);
+let a = str.split(' ');
 console.log(a[2]);
