@@ -1,7 +1,9 @@
-let input = prompt("Please enter a number:");
+function squareInputNumber() {
+  let input = prompt("Enter a number to square:");
 
-function squaredNumber(number) {
-  return number * number;
+  function squaredNumber(number) {
+    return number * number;
+  }
+
+  alert(squaredNumber(input));
 }
-
-alert(squaredNumber(input));
